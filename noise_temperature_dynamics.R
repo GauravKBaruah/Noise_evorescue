@@ -24,7 +24,7 @@ adj.mat<-function(data){
     dat<-apply(dat,2,as.numeric)
   return(dat)}
 
-mydir = 'datasets_1'
+mydir = 'datasets_2'
 
 #-------------------------------------------------------------------------------
 webfiles = list.files(path = mydir, pattern = "*.csv", full.names = TRUE)
@@ -32,7 +32,7 @@ webfiles = list.files(path = mydir, pattern = "*.csv", full.names = TRUE)
 
 
 #print(r)
-g<-adj.mat(webfiles[which(webfiles =="datasets_1/M_PL_061_09.csv")]) #ork web names
+g<-adj.mat(webfiles[which(webfiles =="datasets_2/M_PL_061_09.csv")]) #ork web names
 Aspecies<- dim(g)[2] # no of animal species
 Plantspecies<- dim(g)[1] # no of plant species
 degree.animals<-degree.plants<-numeric()
