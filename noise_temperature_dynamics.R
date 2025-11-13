@@ -177,3 +177,9 @@ sp2<-(sol_2 %>% filter(type == "sP"))$v
 
 
 
+######## THINGS TO DO ##############
+#1. Final timepoint after shift in temperature, estimate no. of species that survived
+# survival of species is any species have density > 1e-3
+# total biomass : sum (all species density at final timepoint)
+# evo rescue curve: which species shows the U-shaped curved. 
+
